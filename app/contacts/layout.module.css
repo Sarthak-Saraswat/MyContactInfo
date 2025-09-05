@@ -1,0 +1,23 @@
+.Layout {
+  display: flex;
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  flex-shrink: 0;
+  padding: 16px;
+  background-color: slateblue;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+.Subtitle {
+  margin-bottom: 4px;
+  padding-left: 12px;
+}
+
+.Subtitle:nth-of-type(2) {
+  margin-top: 16px;
+}
